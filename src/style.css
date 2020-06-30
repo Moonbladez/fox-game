@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* frame and background */
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.frame {
+	height: 47.625rem;
+	width: 47.625rem;
+	position: relative;
+}
+
+.inner {
+	position: relative;
+}
+
+.game {
+	width: 39.25rem;
+	height: 36.063rem;
+	position: absolute;
+	top: 3.875rem;
+	left: 4.188rem;
+}
+
+.game.night {
+	width: 44.75rem;
+	top: 3.875rem;
+	left: -1.188rem;
+}
+
+.hidden {
+	display: none;
+}
+
+/* buttons */
+.buttons {
+	position: absolute;
+	top: 42.125rem;
+	left: 16.625rem;
+	height: 4.438rem;
+	width: 14.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icons {
+	position: absolute;
+	top: 35.75rem;
+	left: 12.125rem;
+	height: 4.188rem;
+	width: 23.375rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* poop bag */
+.poop-bag {
+	position: absolute;
+	top: 18.75rem;
+	left: 10rem;
+}
+
+/* modal */
+.modal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: rebeccapurple;
+	color: #fefefe;
+}
+
+.modal:empty {
+	display: none;
+}
+
+.modal-inner:empty {
+	display: none;
+}
+
+/* fox */
+.fox {
+	position: absolute;
+	top: 21rem;
+	left: 17.813rem;
+	overflow: hidden;
+}
+
+.fox-pooping {
+	top: 19.938rem;
+	left: 9.938rem;
+}
+
+.fox-celebrate {
+	top: 18.125rem;
+	left: 18.125rem;
+}
+
+.fox-rain {
+	top: 22.625rem;
+}
+
+.fox-hungry {
+	top: 22.625rem;
+}
+
+.fox-eating {
+	top: 22.625rem;
+}
+
+.fox-egg {
+	top: 18.063rem;
+	left: 15.5rem;
+}
+
+.fox-sleeping {
+	top: 21.938rem;
+	left: 27.813rem;
+}
+
+.fox-dead {
+	top: 23.75rem;
+	left: 15.188rem;
+}
