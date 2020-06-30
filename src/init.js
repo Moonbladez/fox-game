@@ -18,7 +18,6 @@ import {
 
 
 const init = () => {
-	console.log("starting game");
 	initButtons(handleUserAction)
 
 	let nextTimeToTick = Date.now();
